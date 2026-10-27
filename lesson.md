@@ -112,7 +112,7 @@ You'll work with this small DataFrame (created in the notebook as `data` — fou
 **Tasks:**
 1. Select the rows for `'Utah'` and `'New York'` only.
 2. Select the value in the `'two'` column for `'Ohio'` (should be 1).
-3. Select all rows where column `'three'` is greater than 5.
+3. Select all rows where column `'one'` is at least 8.
 4. Update the value of `'four'` in the `'New York'` row to be 100 (use `.loc`).
 
 > **Question:** "Which method would you use to select the last row of a DataFrame — `.loc` or `.iloc`? Why?"
